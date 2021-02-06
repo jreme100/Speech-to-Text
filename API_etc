@@ -1,13 +1,13 @@
 
-IBM Cloud API: sh-jC6g1Cln2U2XUDT4RgM8OkQUBikGwg52QxqIUbTML
+IBM Cloud API: your_cloud_API
 
 {
-  "apikey": "sGTKhHocGI0nXyywllr5yQsxD2fZogCazuQI81JGl7fO",
-  "iam_apikey_description": "Auto-generated for key 933fd5ee-060e-4219-ad1d-4b1c0c3c4510",
+  "apikey": "your_api_key",
+  "iam_apikey_description": "Auto-generated for key your_key_description",
   "iam_apikey_name": "Auto-generated service credentials",
   "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
-  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/8cef48fe2392438680b70e99eda3c4b0::serviceid:ServiceId-d3b06295-15b4-4e30-9820-70624bdab066",
-  "url": "https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/e6c87bf0-360f-463b-965f-30da64275fb1"
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/your_indentity::serviceid:ServiceId-your_service_id",
+  "url": "https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/your_instance_ID"
 }
 
 IBMid-2700066XY9
