@@ -1,15 +1,15 @@
 For less than 100 MB
 
-curl -X POST -u "apikey:sGTKhHocGI0nXyywllr5yQsxD2fZogCazuQI81JGl7fO" \
+curl -X POST -u "apikey:your_api_key" \
 --header "Content-Type: audio/flac" \
 --data-binary @input.flac \
-"https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/e6c87bf0-360f-463b-965f-30da64275fb1/v1/recognize?smart_formatting=true&speaker_labels=true" > watson.json
+"https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/your_instance_name/v1/recognize?smart_formatting=true&speaker_labels=true" > watson.json
 
 THE ABOVE WORKS AS OF 6/3/2020
 Directions are here: https://cloud.ibm.com/services/speec"https://stream.watsonplatform.net/speech-to-text/api/v1/recognize?smart_formatting=true&speaker_labels=true" > watson.json"https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/e6c87bf0-360f-463b-965f-30da64275fb1" > watson.json"https://stream.watsonplatform.net/speech-to-text/ap"https://stream.watsonplatform.net/speech-to-text/api/v1/recognize?smart_formatting=true&speaker_labels=true" > watson.json"https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/e6c87bf0-360f-463b-965f-30da64275fb1" > watson.json"https://stream.watsonplatform.net/speech-to-text/api/v1/recognize?smart_formatting=true&speaker_labels=true" > watson.jsoni/v1/recognize?smart_formatting=true&speaker_labels=true" > watson.jsonh-to-text/crn%3Av1%3Abluemix%3Apublic%3Aspeech-to-text%3Aeu-gb%3Aa%2F8cef48fe2392438680b70e99eda3c4b0%3Ae6c87bf0-360f-463b-965f-30da64275fb1%3A%3A?paneId=gettingStarted
 
 For 100MB to 1GB
-curl -X POST -u "apikey:sGTKhHocGI0nXyywllr5yQsxD2fZogCazuQI81JGl7fO" \
+curl -X POST -u "apikey:your_api_key" \
 --header "Content-Type: audio/flac" \
 --data-binary @input.flac \
-"https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/e6c87bf0-360f-463b-965f-30da64275fb1/v1/recognize?smart_formatting=true&speaker_labels=true"
+"https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/your_instance_name/v1/recognize?smart_formatting=true&speaker_labels=true"
